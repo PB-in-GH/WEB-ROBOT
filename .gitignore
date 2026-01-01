@@ -76,7 +76,6 @@ lerna-debug.log*
 
 # Logs
 logs/
-*.log
 
 # Database
 *.sqlite
@@ -89,7 +88,6 @@ temp/
 
 # OS
 Thumbs.db
-.DS_Store
 
 # Browser automation
 screenshots/
