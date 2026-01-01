@@ -1,0 +1,13 @@
+{
+  "controller_id": 5,
+  "controller_name": "QWait-S",
+  "network_score": 55.29677512030453,
+  "delay_score": 0.0,
+  "recv_score": 63.52941176470589,
+  "loss_score": 97.88766788766789,
+  "delay_95th_ms": 669.2,
+  "min_delay_ms": 0.0,
+  "avg_recv_mbps": 2.0571428571428574,
+  "avg_trace_bw_mbps": 3.238095238095238,
+  "avg_loss_pct": 2.112332112332112
+}

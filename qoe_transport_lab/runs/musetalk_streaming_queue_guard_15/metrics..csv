@@ -1,0 +1,2 @@
+t_s,second_idx,send_fps,gen_buffer_s,gen_inflight,last_gen_ms,starvation_ms,rx_rate_mbps,net_loss_pct,one_way_ms,e2e_ms,queue_frames,queue_bytes,client_buffer_ms,trace_bw_mbps,trace_rtt_ms,send_drop_late_total,send_drop_late_window,net_drop_overflow_total,net_drop_late_total,decision_extra,fps,recv_rate_mbps,loss_pct,dropped_total,dropped_window
+30.0,29,15.0,0.0,0,492,8550,0.0,0.0,0.0,0.0,0,0,0.0,3.0,80.0,157,0,0,181,"{'mode': 'queue_guard', 'reason': 'queue_low', 'queue_bytes': 0, 'low': 200000, 'high': 800000}",15.0,0.0,0.0,157,0

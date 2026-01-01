@@ -1,0 +1,9 @@
+avator_1:
+ preparation: 0 # your can set it to False if you want to use the existing avator, it will save time
+ bbox_shift: 5
+ video_path: "data/video/sun.mp4"
+ audio_clips:
+     audio_0: "data/audio/1.wav"
+ 
+  
+

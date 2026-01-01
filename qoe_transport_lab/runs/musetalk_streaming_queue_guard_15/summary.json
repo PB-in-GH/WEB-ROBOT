@@ -1,0 +1,11 @@
+{
+  "network_score": 54.28421052631579,
+  "delay_score": 0.0,
+  "recv_score": 52.8421052631579,
+  "loss_score": 98.0,
+  "delay_95th_ms": 658.3875,
+  "min_delay_ms": 0.0,
+  "avg_recv_mbps": 1.6733333333333333,
+  "avg_trace_bw_mbps": 3.1666666666666665,
+  "avg_loss_pct": 1.9999999999999998
+}

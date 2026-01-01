@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / venv
+.env
+venv/
+.miniconda/
+
+# 大模型 / 权重 / cache
+*.pt
+*.pth
+*.ckpt
+*.bin
+models/
+checkpoints/
+
+# 日志 / 临时文件
+logs/
+*.log
+tmp/
+cache/
+
+# 数据
+data/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
+# ===== Do NOT track these large/vendor repos =====
+OpenAvatarChat/
+lite-avatar/
+LAM/
+
+# ===== MuseTalk: do not track weights/models and artifacts =====
+MuseTalk/models/
+MuseTalk/checkpoints/
+MuseTalk/outputs/
+MuseTalk/results/
+MuseTalk/logs/
+MuseTalk/tmp/
+MuseTalk/cache/
+
+# Common ML artifacts (extra safety)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx

@@ -1,0 +1,11 @@
+{
+  "inference_yaml": "/home/pb/web-robot/MuseTalk/configs/inference/realtime.yaml",
+  "preparation": 0,
+  "avatar_id": "avator_1",
+  "audio_key": "audio_0",
+  "base_fps": 30,
+  "limit_seconds": 10,
+  "cfg_json": {
+    "musetalk_root": "/home/pb/web-robot/MuseTalk"
+  }
+}

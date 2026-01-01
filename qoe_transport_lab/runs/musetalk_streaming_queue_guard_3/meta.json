@@ -1,0 +1,28 @@
+{
+  "trace": "make_simple_trace()",
+  "runner": {
+    "total_s": 10,
+    "tick_ms": 50,
+    "print_every_s": 1
+  },
+  "controller": {
+    "type": "QueueGuardController",
+    "min_fps": 5,
+    "max_fps": 30,
+    "init_fps": 30,
+    "low_water_bytes": 200000,
+    "high_water_bytes": 800000,
+    "step_up": 2,
+    "step_down": 6
+  },
+  "source": {
+    "type": "MusetalkStreamingFrameSource",
+    "avatar_id": "avator_1",
+    "audio_key": "audio_0",
+    "base_fps": 30,
+    "limit_seconds": 10,
+    "gpu_id": 2,
+    "use_fp16": false,
+    "constant_size_bytes": 25000
+  }
+}

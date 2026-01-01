@@ -1,0 +1,36 @@
+{
+  "base_name": "simple",
+  "tag": "queue_guard",
+  "runner": {
+    "total_s": 15,
+    "tick_ms": 50,
+    "print_every_s": 1
+  },
+  "source": {
+    "type": "synthetic",
+    "frame_size_bytes": 25000
+  },
+  "trace": {
+    "num_points": 3,
+    "points": [
+      {
+        "start_ms": 0,
+        "bandwidth_bps": 6000000.0,
+        "rtt_ms": 50.0,
+        "loss_rate": 0.0
+      },
+      {
+        "start_ms": 5000,
+        "bandwidth_bps": 1000000.0,
+        "rtt_ms": 120.0,
+        "loss_rate": 0.2
+      },
+      {
+        "start_ms": 10000,
+        "bandwidth_bps": 3000000.0,
+        "rtt_ms": 80.0,
+        "loss_rate": 0.01
+      }
+    ]
+  }
+}

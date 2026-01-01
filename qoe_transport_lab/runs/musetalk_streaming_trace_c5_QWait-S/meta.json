@@ -1,0 +1,55 @@
+{
+  "entry": "run_musetalk_streaming_trace",
+  "controller_id": 5,
+  "controller_name": "QWait-S",
+  "controller_cfg": {
+    "min_fps": 5,
+    "max_fps": 15,
+    "init_fps": 15,
+    "low_water_ms": 4,
+    "high_water_ms": 32,
+    "step_up": 2,
+    "step_down": 6
+  },
+  "trace": "make_simple_trace()",
+  "runner": {
+    "total_s": 30,
+    "tick_ms": 50,
+    "print_every_s": 1,
+    "gen_buffer_target_s": 2,
+    "late_drop_ms": 300,
+    "csv_path": null
+  },
+  "controller": {
+    "type": "QWaitSController",
+    "min_fps": 5,
+    "max_fps": 15,
+    "init_fps": 15,
+    "high_water_ms": 32,
+    "low_water_ms": 4,
+    "step_up": 2,
+    "step_down": 6,
+    "_cur_fps": 15
+  },
+  "source": {
+    "type": "MusetalkStreamingFrameSource",
+    "avatar_id": "avator_1",
+    "audio_key": "audio_0",
+    "base_fps": 30,
+    "limit_seconds": 60,
+    "gpu_id": 2,
+    "use_fp16": false,
+    "constant_size_bytes": 25000
+  },
+  "rtc": {
+    "type": "TraceRtcEmulator",
+    "max_queue_delay_ms": 400,
+    "max_queue_bytes": 2097152,
+    "drop_policy": "drop_oldest",
+    "feedback_signals": [
+      "queue_frames",
+      "queue_bytes",
+      "extra.queue_delay_ms"
+    ]
+  }
+}
